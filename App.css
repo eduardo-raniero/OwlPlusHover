@@ -1,0 +1,87 @@
+*::selection{
+    background: #00a4c154;
+}
+body{
+    background-color: #f2f2f2 !important;
+}
+
+h1{
+    font: 600 2.4rem Raleway !important;
+    color: #00363E;
+}
+
+.container{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#white-box{
+    padding: 1.7rem 1.7rem 1.7rem 1.7rem;
+    margin: auto;
+    background-color: #fff;
+    width: 28rem;
+    border-radius: 0.2rem;
+}
+
+input{
+    border-radius: 0.12rem !important;
+}
+
+input:focus{
+    background-color: #01444e17 !important;
+}
+
+#forgot{
+   margin-left: 16.45rem;
+}
+
+.submiter{
+    border: none;
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    font: 500 0.9rem Roboto;
+    color: #fff;
+    background-color: #01444e;
+    border-radius: 0.15rem;
+}
+
+.submiter:hover{
+    background-color: #036675;
+    transition: 0.2s ease-in-out;
+}
+
+svg{
+    width: 90px;
+    margin-bottom: 1.6rem;
+}
+
+#shapes{
+    width: 8rem;
+    margin: 1.2rem 0 0 48%;
+
+}
+
+#shapes:hover{
+    animation: shape-size 1.5s;
+}
+
+@keyframes shape-size {
+    0%
+    {
+        width: 8rem;
+
+    }
+
+    50%
+    {
+        width: 9.2rem;
+
+    }
+
+    100% 
+    {
+        width: 8rem;
+
+    }
+}
